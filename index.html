@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Omar's Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <header class="container header-background">
+            <h1 id="header-title">Omar's Diner</h1>
+            <h2 id="header-caption">The best burgers and pizzas in town.</h2>
+            <a href="#" class="job-link">Get a job at Omar's Diner</a>
+        </header>
+
+        <main>
+            <section id="menu-section">
+                <!-- Feed by js -->
+            </section>
+            <section id="ordering-section">
+                <!-- Feed by js -->
+            </section>
+        </main>
+        
+        <div id="credit-card-window" class="hidden">
+            <button class="close-btn" id="close-payment-btn">X</button>
+            <h1 class="credit-card-form-title">Payment Details</h1>
+            <form id="credit-card-form">
+                <input class="credit-card-inputs" type="text" 
+                placeholder="Card FullName" pattern="[a-zA-Z ]{1,}" 
+                name="username" required>
+                <input class="credit-card-inputs" type="text"
+                    placeholder="Card Number" pattern="[0-9]{1,}"
+                    name="card-number" required>
+                <input class="credit-card-inputs" type="text"
+                    placeholder="CVV" pattern="[0-9]{3}"
+                    name="cvv" required>
+                <button class="pay-btn">Pay</button>
+            </form>
+        </div>
+
+        <div id="happy-meal-window" class="hidden">
+            <button class="close-btn" id="close-happy-meal-btn">X</button>
+            <h1 class="happy-meal-message">Thanks for your trust! <br> Happy meal 💚</h1>
+        </div>
+
+        <script src="./js/index.js" type="module"></script>
+    </body>
+</html>
+
