@@ -18,5 +18,5 @@ The "Restaurant Ordering App" is a solo project by Scrimba Front-end Program des
 Clone the repository, open `index.html` in a web browser, choose your meals, and simulate an order to see how the app functions.
 
 ## Demo
-[View Live Project](#)
+[View Live Project](https://bright-choux-47d4d4.netlify.app/)
 
